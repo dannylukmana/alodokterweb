@@ -9,7 +9,10 @@ function Navbar() {
     >
       <div className="container">
         <a className="navbar-brand" href="#page-top">
-          <img src="/assets/icon-alodokter-white@2x.png" alt="Alodokter Logo" />
+          <img
+            src={process.env.PUBLIC_URL + "/assets/icon-alodokter-white@2x.png"}
+            alt="Alodokter Logo"
+          />
         </a>
         <button
           className="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded"
@@ -54,7 +57,10 @@ function Navbar() {
             data-bs-toggle="dropdown"
             aria-expanded="false"
           >
-            <img src="/assets/Profile.png" alt="Profile" />
+            <img
+              src={process.env.PUBLIC_URL + "/assets/Profile.png"}
+              alt="Profile"
+            />
           </button>
           <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton2">
             <li>
