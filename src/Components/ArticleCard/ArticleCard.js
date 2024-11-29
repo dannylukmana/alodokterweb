@@ -5,7 +5,7 @@ function ArticleCard() {
   return (
     <div className="col mb-5">
       <div className="card h-100">
-        <img className="card-img-top" src="/assets/Person.png" alt="Product" />
+        <img className="card-img-top" src={process.env.PUBLIC_URL + src="/assets/Person.png"} alt="Product" />
 
         <div className="card-body p-4">
           <div className="text-center">
