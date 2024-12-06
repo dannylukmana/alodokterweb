@@ -51,7 +51,7 @@ function App() {
 
 function AppWrapper() {
   return (
-    <Router>
+    <Router basename="/alodokterweb">
       <App />
     </Router>
   );
