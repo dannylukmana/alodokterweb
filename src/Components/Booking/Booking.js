@@ -268,7 +268,7 @@ const Booking = () => {
                   </h1>
                   <center>
                     <img
-                      src="/assets/check.png"
+                      src={process.env.PUBLIC_URL + "/assets/check.png"}
                       style={{ height: "100px", width: "100px" }}
                       alt="Success"
                     />
