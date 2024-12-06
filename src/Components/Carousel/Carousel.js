@@ -11,21 +11,21 @@ function Carousel() {
       <div className="carousel-inner text-center">
         <div className="carousel-item active">
           <img
-            src="/assets/Banner2.png"
+            src={process.env.PUBLIC_URL + "/assets/Banner2.png"}
             className="d-block img-fluid"
             alt="Banner 2"
           />
         </div>
         <div className="carousel-item">
           <img
-            src="/assets/Banner1.png"
+            src={process.env.PUBLIC_URL + "/assets/Banner1.png"}
             className="d-block img-fluid"
             alt="Banner 1"
           />
         </div>
         <div className="carousel-item">
           <img
-            src="/assets/Banner.png"
+            src={process.env.PUBLIC_URL + "/assets/Banner.png"}
             className="d-block img-fluid"
             alt="Banner"
           />

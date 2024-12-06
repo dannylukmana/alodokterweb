@@ -52,7 +52,7 @@ const Booking = () => {
             <h2 style={{ textAlign: "center" }}>Pemesanan Konsultasi</h2>
             <div className="col-md-3" style={{ textAlign: "center" }}>
               <img
-                src="\assets\doctor.png"
+                src={process.env.PUBLIC_URL + "/assets/Doctor.png"}
                 width="120px"
                 height="120px"
                 alt="Dokter"

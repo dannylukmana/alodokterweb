@@ -5,7 +5,11 @@ function ListDoctor() {
   return (
     <div className="col mb-5">
       <div className="card h-100">
-        <img className="card-img-top" src="/assets/Doctor.png" alt="Dokter" />
+        <img
+          className="card-img-top"
+          src={process.env.PUBLIC_URL + "/assets/Doctor.png"}
+          alt="Dokter"
+        />
         <div className="card-body p-4">
           <div className="text-center">
             <h5 className="fw-bolder">Dr. Danny</h5>

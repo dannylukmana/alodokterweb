@@ -75,7 +75,7 @@ function Article() {
             <p style={textStyle}>Oleh : Danny Lukmana</p>
             <img
               className="card-img-top card-body shadow mb-3 bg-body rounded"
-              src="\assets\person.png"
+              src={process.env.PUBLIC_URL + "/assets/Person.png"}
               alt="..."
               style={{ borderRadius: "10px", marginBottom: "20px" }}
             />
@@ -155,7 +155,11 @@ function Article() {
                   marginBottom: windowWidth < 900 ? "15px" : "0", // Add margin for small screens
                 }}
               >
-                <img style={imageStyle} src="\assets\person.png" alt="..." />
+                <img
+                  style={imageStyle}
+                  src={process.env.PUBLIC_URL + "/assets/Person.png"}
+                  alt="..."
+                />
               </div>
               <div
                 className="col-lg-7 ms-auto"
